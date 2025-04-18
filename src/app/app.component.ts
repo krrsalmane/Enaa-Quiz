@@ -9,6 +9,7 @@ import { ResultComponent } from './result/result.component';
 @Component({
   selector: 'app-root',
   standalone: true,
+  
   imports: [RouterOutlet, NavbarComponent,HomeComponent,QuizComponent,HistoryComponent,ResultComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
