@@ -1,1 +1,29 @@
-<p>history works!</p>
+<section class="flex flex-col min-h-screen bg-gray-900 text-white">
+    <div class="flex flex-col max-w-7xl mx-auto px-6 py-12 space-y-8">
+      <h1 class="text-3xl font-bold">Quiz History</h1>
+      <!-- Score Table -->
+      <div class="flex flex-col overflow-x-auto">
+        <table class="min-w-full bg-gray-800 rounded-lg">
+          <thead>
+            <tr class="bg-gray-700">
+              <th class="px-4 py-3 text-left text-sm font-semibold">Username</th>
+              <th class="px-4 py-3 text-left text-sm font-semibold">Score</th>
+              <th class="px-4 py-3 text-left text-sm font-semibold">Date</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Placeholder row -->
+            <tr class="border-t border-gray-700">
+              <td class="px-4 py-3">User</td>
+              <td class="px-4 py-3">0</td>
+              <td class="px-4 py-3">YYYY-MM-DD</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- Back Button -->
+      <div class="flex justify-start">
+        <a href="/home" class="flex px-6 py-3 bg-cyan-600 text-white font-semibold rounded-lg hover:bg-cyan-700 transition">Back to Home</a>
+      </div>
+    </div>
+  </section>
