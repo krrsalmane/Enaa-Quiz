@@ -1,0 +1,33 @@
+<section class="flex flex-col min-h-screen bg-gray-900 text-white">
+    <div class="flex flex-col items-center justify-center max-w-7xl mx-auto px-6 py-12 space-y-8">
+      <h1 class="text-4xl font-bold text-center">Welcome to QuizMaster</h1>
+      <p class="text-lg text-center text-gray-300">Test your knowledge with fun quizzes!</p>
+      <div class="flex flex-col w-full max-w-md space-y-6">
+        <!-- Category Selection -->
+        <div class="flex flex-col">
+          <label for="category" class="text-sm font-medium mb-2">Category</label>
+          <select id="category" class="px-4 py-2 bg-gray-800 border border-gray-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-cyan-500">
+            <option value="">Select a category</option>
+            <option value="Sport">Sport</option>
+            <option value="History">History</option>
+            <option value="Celebrities">Celebrities</option>
+            <option value="Politics">Politics</option>
+            <option value="Art">Art</option>
+            <!-- Options populated dynamically in Angular -->
+          </select>
+        </div>
+        <!-- Difficulty Selection -->
+        <div class="flex flex-col">
+          <label for="difficulty" class="text-sm font-medium mb-2">Difficulty</label>
+          <select id="difficulty" class="px-4 py-2 bg-gray-800 border border-gray-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-cyan-500">
+            <option value="">Select difficulty level</option>
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+          </select>
+        </div>
+        <!-- Start Quiz Button -->
+        <a href="/quiz" class="flex justify-center px-6 py-3 bg-cyan-600 text-white font-semibold rounded-lg hover:bg-cyan-700 transition">Start Quiz</a>
+      </div>
+    </div>
+  </section>
